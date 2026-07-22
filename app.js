@@ -73,3 +73,6 @@ function reiniciarJuego() {
 }
 
 condicionesIniciales();
+
+document.getElementById('intentar').addEventListener('click', VerificarIntento);
+document.getElementById('reiniciar').addEventListener('click', reiniciarJuego);
